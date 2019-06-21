@@ -1,0 +1,109 @@
+body {
+    font-family: Righteous;
+    width: 100%;
+    font-size: 20px;
+}
+
+#bgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+}
+
+.container { 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#questionpage {
+    width: 100%;
+    max-width: 670px;
+    margin: auto;
+}
+
+.answerChoices, #timer, #currentQ, #question {
+    margin-top: 2%;
+}
+
+#timer, #currentQ, .choiceList, .button, #status {
+    text-align: center;
+}
+
+#timer {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    font-size: 40px;
+    color: #ff0000ab;
+    text-shadow: 2px 2px #000000;
+}
+
+#question, #status {
+    font-size: 30px;
+}
+
+#status {
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+
+.choiceList:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff75;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    padding: 15px;
+}
+
+h1 {
+    font-family: Monoton;
+    background: url("../images/elec.gif");
+    background-position: center;
+    background-size: 80%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2px;
+}
+
+h2 {
+    font-size: 25px;
+    text-shadow: 0 0 7px #ffffff;
+}
+
+.button {
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    font-size: 40px;
+    box-shadow: 0 0 7px #ffffff;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px #ffffff;
+}
+
+.AnswerImage {
+    width: 100%;
+    max-width: 1000px; 
+    height: 200px; 
+    object-fit: cover;
+    box-shadow: 0 2px 3px #000000;
+    border-radius: 6px;
+    outline: 1px solid #ffffff67;
+    outline-offset: -4px;
+}

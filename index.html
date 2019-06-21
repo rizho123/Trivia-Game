@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TRIVIA GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="">
+</head>
+<body>
+    <video autoplay muted loop id="bgroundVideo">
+        <source src="./assets/images/wallpaper.mp4" type="video/mp4">
+        Your browser doesn't support HTML5 videos.
+    </video>
+    <!--Container for background-->
+    <div class="container">
+        <!--Start Button-->
+        <div class="wallpaper">
+            <!--Insert Video Wallpaper Here-->
+            <div class="header">
+            <h1>TRIVIA GAME</h1>
+            </div>
+            <div class="button" id="button">START</div>
+        </div>
+        <!-- Question page -->
+        <div id="questionpage">
+            <h3 id="timer"></h3>
+            <p id="currentQ"></p>
+            <h2 id="question"></h2>
+            <div class="answerChoices" id="answerChoices"></div>
+            <img class="AnswerImage" id="answerImage" src="">
+
+            <!-- Scoreboard page -->
+            <div id="message"></div>
+            <div id="correct"></div>
+            <div id="wrong"></div>
+            <div id="nAnswered"></div>
+            <div class="button" id="resetButton">RESTART</div>
+
+            <!--Intro-Page-->
+            <div id="status"></div>
+            <div id="intropage">
+                <h2>INSTRUCTIONS:</h2>
+                <p>A SIMPLE Trivia game about storms! See how many you can answer correctly!</p>
+            </div>
+
+            <div id="correctAnswer"></div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
