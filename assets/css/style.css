@@ -32,6 +32,17 @@ body {
     text-align: center;
 }
 
+#currentQ {
+    background-color: #ffffff3f;
+    border: 1px solid #0000003f;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #000000;
+    width: 100%;
+    max-width: 240px;
+    margin: auto;
+    margin-top: 2%;
+}
+
 #timer, #correctAnswer, #message {
     color: #ff0000ab;
     text-shadow: 2px 2px #000000;
@@ -83,8 +94,6 @@ h1 {
     background-size: 80%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-color: #000000;
-    -webkit-text-stroke-width: 2px;
 }
 
 h2 {
