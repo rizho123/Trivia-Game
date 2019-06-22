@@ -11,4 +11,4 @@ A simple trivia game about weather and storms! Created via JQuery and styled wit
     - A picture related to the question will be shown at the end of each question.
 ```
 
-<img width = 900 src = "https://github.com/rizho123/Trivia-Game/blob/master/assets/images/preview.PNG?raw=true">
+<img width = 900 src = "https://github.com/rizho123/Trivia-Game/blob/master/assets/images/preview1.PNG?raw=true">
