@@ -47,8 +47,8 @@ var Questions = [{
     answer: 0
 }, {
     //Question Six:
-    question: "Can you tell the temperature by listening to a cricket's chirp?",
-    answerList: ["True", "False"],
+    question: "Which of the following is a common cause for floods?",
+    answerList: ["Heavy Rain", "When the ground doesn't absorb water fast enough", "When water isn't being used", "When the neighbor's toilet cloggs"],
     answer: 0
 }]
 
@@ -64,7 +64,7 @@ $(document).ready(function () {
         $("#message").empty();
         $("#correct").empty();
         $("#wrong").empty();
-        $("#noanswered").empty();
+        $("#nAnswered").empty();
         $("#timer").show();
         //clear counter
         currentQ = 0;
@@ -143,7 +143,7 @@ $(document).ready(function () {
         }
         //once the last question is complete display scoreboard
         if (currentQ == (Questions.length - 1)) {
-            setTimeout(finalScreen, 1000)
+            setTimeout(finalScreen, 4000)
         } else {
             //otherwise, display next question 
             currentQ++;
@@ -165,7 +165,7 @@ $(document).ready(function () {
         } else if (Questions[4].question === Questions[currentQ].question) {
             $("#answerImage").attr("src","./assets/images/freeze.gif")
         } else if (Questions[5].question === Questions[currentQ].question) {
-            $("#answerImage").attr("src","./assets/images/cricket.gif")
+            $("#answerImage").attr("src","./assets/images/flood.gif")
         } 
     }
 
@@ -175,6 +175,7 @@ $(document).ready(function () {
         $("#status").empty();
         $("#correctAnswer").empty();
         $("#answerImage").hide()
+        $("#question").empty();
         //display message 
         $("#message").html(messages.finished);
         //final counter results
