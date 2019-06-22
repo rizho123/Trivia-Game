@@ -166,7 +166,7 @@ $(document).ready(function () {
     });
 
     function countDown() {
-        sec = 10;
+        sec = 20;
         $("#timer").text("Time Left: " + sec);
         answered = true;
         time = setInterval(showCountdDown, 1000);
