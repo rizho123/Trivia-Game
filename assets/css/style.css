@@ -69,6 +69,15 @@ body {
     text-shadow: 2px 2px #000000;
 }
 
+#question {
+    color: #0000009c;
+    text-shadow: 1px 1px 4px #000000
+}
+
+.choiceList {
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
 
 .choiceList:hover {
     border: 1px solid #ffffff;

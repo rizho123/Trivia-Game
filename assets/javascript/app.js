@@ -38,7 +38,7 @@ var Questions = [{
     answer: 0
 }, {
     question: "Which of the following is a common cause for floods?",
-    answerList: ["Heavy Rain", "When the ground doesn't absorb water fast enough", "When water isn't being used", "When the neighbor's toilet cloggs"],
+    answerList: ["Heavy Rain", "When the ground doesn't absorb water fast enough", "When water isn't being used", "When the neighbor's toilet clogs"],
     answer: 0
 }]
 
